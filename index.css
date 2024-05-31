@@ -1,0 +1,35 @@
+#container {
+  padding: 20px;
+  height: 100%;
+  width: 90%;
+}
+
+#scores {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#weapons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  background-color: #ffd51b;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
