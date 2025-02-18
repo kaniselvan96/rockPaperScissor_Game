@@ -1,7 +1,7 @@
 let computer_score = 0;
 let user_score = 0;
 
-let choices_object = {
+const choices_object = {
   rock: {
     rock: "draw",
     scissors: "win",
